@@ -11,6 +11,20 @@ import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
 import aws from "./aws.png";
+import freeblackboard from "./freeblackboard.png";
+import mmtc from "./mmtc.png";
+import maxxcargo from "./maxxcargo.png";
+
+import mittsure from "./mittsure.png";
+import ashirvad from "./ashirvad.png";
+import tgt from "./tgt.png";
+import freecharge from "./freecharge.png";
+import amdocs from "./amdocs.png";
+import iil from "./iil.png";
+import zerone from "./zerone.png";
+import alextra from "./alextra.png";
+
+
 
 import git from "./tech/git.png";
 import html from "./tech/html.png";
@@ -34,8 +48,19 @@ import tripguide from "./tripguide.png";
 
 export {
   logo,
+  mmtc,
+  freeblackboard,
+  amdocs,
+  alextra,
+  zerone,
+  ashirvad,
+  tgt,
+  freecharge,
+  iil,
+  mittsure,
   backend,
   creator,
+  maxxcargo,
   mobile,
   web,
   github,
