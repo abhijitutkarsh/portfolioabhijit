@@ -48,6 +48,10 @@ export const navLinks = [
     title: "Work",
   },
   {
+    id: "project",
+    title: "Projects",
+  },
+  {
     id: "contact",
     title: "Contact",
   },
@@ -277,94 +281,280 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
+      "I thought it was impossible to make a website as beautiful as our product, but Abhijit proved me wrong.",
+    name: "Shubham",
     designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    company: "Zerone",
+    image: "https://zerone.global",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
+      "I've never met a web developer who truly cares about their clients' success like Abhijit does.",
+    name: "Deepak Kumar",
     designation: "COO",
-    company: "DEF Corp",
+    company: " Vision Valt",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
+      "After Abhijit optimized our website, our traffic increased by 50%. We can't thank them enough!",
+    name: "Imal Hashmi",
     designation: "CTO",
-    company: "456 Enterprises",
+    company: "Free Blackboard",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Smart Maxx - Admin Portal with WhatsApp/WeChat Message Automation",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Developed a role-based access control mechanism, implemented a quotation generation process integrating WhatsApp, and designed a warehouse management system. Implemented real-time tracking of active shipping orders.",
     tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
+      { name: "react", color: "blue-text-gradient" },
+      { name: "nodejs", color: "green-text-gradient" },
+      { name: "mongodb", color: "pink-text-gradient" },
+      { name: "expressjs", color: "purple-text-gradient" },
+      { name: "parse-server", color: "orange-text-gradient" },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: "https://i.postimg.cc/WbP6L9NN/Screenshot-2024-08-11-at-2-43-07-AM.png", // Add an image if available
+    source_code_link: "https://dashboard.maxxcargo.hk",
   },
   {
-    name: "Job IT",
+    name: "Freecharge - Admin Panel",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Implemented live selfie authentication and mock location prevention, developed dynamic form builder, and streamlined the merchant onboarding process.",
     tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
+      { name: "react", color: "blue-text-gradient" },
+      { name: "nodejs", color: "green-text-gradient" },
+      { name: "mongodb", color: "pink-text-gradient" },
+      { name: "expressjs", color: "purple-text-gradient" },
+      { name: "react-native", color: "orange-text-gradient" },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: "https://i.postimg.cc/pT4hZdTV/Screenshot-2023-12-31-at-9-30-18-PM.png", // Add an image if available
+    source_code_link: "https://fcdms-phase2staging.vercel.app",
   },
   {
-    name: "Trip Guide",
+    name: "MaxxCargo - Logistics Website",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Developed a professional website for MaxxCargo using WordPress, customized the template, and implemented responsive design elements.",
     tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
+      { name: "wordpress", color: "blue-text-gradient" },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: "https://i.postimg.cc/pLdtCJnC/Screenshot-2024-08-11-at-2-44-42-AM.png", // Add an image if available
+    source_code_link: "https://maxxcargo.hk",
+  },
+  {
+    name: "Alextra - Multi-Service Website",
+    description:
+      "Developed a comprehensive multi-service website for Alextra using Bootstrap and Node.js. Customized the template to showcase diverse services and implemented interactive and responsive design elements.",
+    tags: [
+      { name: "bootstrap", color: "blue-text-gradient" },
+      { name: "nodejs", color: "green-text-gradient" },
+    ],
+    image: "https://i.postimg.cc/FHFJx8Z6/Screenshot-2024-08-11-at-2-46-46-AM.png", // Add an image if available
+    source_code_link: "https://alextra.in",
+  },
+  {
+    name: "Zerone - Admin Panel",
+    description:
+      "Developed secure login, password recovery functionality, and integrated an in-app camera for image and video capture. Implemented an AI model for image recognition and task automation.",
+    tags: [
+      { name: "react", color: "blue-text-gradient" },
+      { name: "nodejs", color: "green-text-gradient" },
+      { name: "parse-server", color: "pink-text-gradient" },
+      { name: "react-native", color: "orange-text-gradient" },
+    ],
+    image: "https://i.postimg.cc/7ZpCJ5p9/Screenshot-2024-08-11-at-2-32-22-AM.png", // Add an image if available
+    source_code_link: "https://bobzerone.vercel.app",
+  },
+  {
+    name: "Zerone - Mobile App",
+    description:
+      "Developed secure login, password recovery functionality, and integrated an in-app camera for image and video capture. Implemented an AI model for image recognition and task automation.",
+    tags: [
+      { name: "react", color: "blue-text-gradient" },
+      { name: "nodejs", color: "green-text-gradient" },
+      { name: "parse-server", color: "pink-text-gradient" },
+      { name: "react-native", color: "orange-text-gradient" },
+    ],
+    image: "https://i.postimg.cc/C5JR5ZLm/Whats-App-Image-2024-08-11-at-03-49-28.jpg", // Add an image if available
+    source_code_link: "https://play.google.com/store/apps/details?id=com.bobzerone",
+  },
+  {
+    name: "Hindware - Data Representation Page",
+    description:
+      "Developed APIs to fetch filtered data from the database and designed a UI to showcase the data.",
+    tags: [
+      { name: "api", color: "blue-text-gradient" },
+      { name: "ui", color: "green-text-gradient" },
+    ],
+    image: "https://i.postimg.cc/RhXvCsH3/Screenshot-2024-08-11-at-2-34-37-AM.png", // Add an image if available
+    source_code_link: "https://hindwareui.vercel.app",
+  },
+  {
+    name: "IIL - Admin Panel with Mobile App",
+    description:
+      "Developed a Dashboard with an associated mobile app, including user onboarding, learning section, and sales data management.",
+    tags: [
+      { name: "react", color: "blue-text-gradient" },
+      { name: "flutter", color: "green-text-gradient" },
+      { name: "nodejs", color: "pink-text-gradient" },
+    ],
+    image: "https://i.postimg.cc/W3znftwQ/Screenshot-2024-01-10-at-11-51-13-AM.png", // Add an image if available
+    source_code_link: "https://iil-admin.vercel.app/",
+  },
+  {
+    name: "Ashirvad - Admin Panel",
+    description:
+      "Developed a Dashboard with an associated mobile app, including user onboarding, learning section, and business data management.",
+    tags: [
+      { name: "react", color: "blue-text-gradient" },
+      { name: "react-native", color: "green-text-gradient" },
+      { name: "nodejs", color: "pink-text-gradient" },
+    ],
+    image: "https://i.postimg.cc/FKT5wP21/Screenshot-2024-08-11-at-3-13-21-AM.png", // Add an image if available
+    source_code_link: "https://ashirvaddealerappstaging2.herokuapp.com/",
+  },
+  {
+    name: "Ashirvad - Mobile App",
+    description:
+      "Developed a Dashboard with an associated mobile app, including user onboarding, learning section, and business data management.",
+    tags: [
+      { name: "react", color: "blue-text-gradient" },
+      { name: "react-native", color: "green-text-gradient" },
+      { name: "nodejs", color: "pink-text-gradient" },
+    ],
+    image: "https://i.postimg.cc/GtRzcr0Q/Whats-App-Image-2024-08-11-at-02-56-50.jpg", // Add an image if available
+    source_code_link: "https://play.google.com/store/apps/details?id=com.ashirvadapp&hl=en_IN",
+  },
+
+  {
+    name: "Mittsure - Admin Panel",
+    description:
+      "Developed a Dashboard with an associated mobile app, including user onboarding, learning section, and business data management.",
+    tags: [
+      { name: "react", color: "blue-text-gradient" },
+      { name: "react-native", color: "green-text-gradient" },
+      { name: "nodejs", color: "pink-text-gradient" },
+    ],
+    image: "https://i.postimg.cc/DySQt5M0/Screenshot-2024-08-11-at-3-31-29-AM.png", // Add an image if available
+    source_code_link: "https://mittsure.vercel.app",
+  },
+  {
+    name: "Mittsure - School Admin Panel",
+    description:
+      "Developed a Dashboard with an associated mobile app, including user onboarding, learning section, and business data management.",
+    tags: [
+      { name: "react", color: "blue-text-gradient" },
+      { name: "react-native", color: "green-text-gradient" },
+      { name: "nodejs", color: "pink-text-gradient" },
+    ],
+    image: "https://i.postimg.cc/90Y0DD1r/Screenshot-2024-08-11-at-3-36-21-AM.png", // Add an image if available
+    source_code_link: "https://school.wabasta.in/admin",
+  },
+  {
+    name: "TGT - Mobile App",
+    description:
+      "Developed a Dashboard with an associated mobile app, including user onboarding, learning section, and business data management.",
+    tags: [
+      { name: "react", color: "blue-text-gradient" },
+      { name: "react-native", color: "green-text-gradient" },
+      { name: "nodejs", color: "pink-text-gradient" },
+    ],
+    image: "https://i.postimg.cc/3xcL2XTP/Whats-App-Image-2024-08-11-at-02-36-11.jpg", // Add an image if available
+    source_code_link: "https://play.google.com/store/apps/details?id=com.ashirvadapp&hl=en_IN",
+  },
+  {
+   
+    name: "TGT - Admin Panel",
+    description:
+      "Developed a Dashboard with an associated mobile app, including user onboarding, learning section, and business data management.",
+    tags: [
+      { name: "react", color: "blue-text-gradient" },
+      { name: "react-native", color: "green-text-gradient" },
+      { name: "nodejs", color: "pink-text-gradient" },
+    ],
+    image: "https://i.postimg.cc/CLtjsDJ8/Screenshot-2024-08-11-at-3-18-31-AM.png", // Add an image if available
+    source_code_link: "https://tgt-adminpanel-fe.vercel.app/#/sign-in?redirectURL=%2Fdash%2Fhome",
+  },
+
+  {
+   
+    name: "Free BlackBoard - Admin Panel",
+    description:
+      "Developed a Dashboard including user onboarding, learning section, and business data management.",
+    tags: [
+      { name: "react", color: "blue-text-gradient" },
+      { name: "react-native", color: "green-text-gradient" },
+      { name: "nodejs", color: "pink-text-gradient" },
+    ],
+    image: "https://i.postimg.cc/tR87gH53/Screenshot-2024-08-11-at-2-39-41-AM.png", // Add an image if available
+    source_code_link: "",
+  },
+  {
+   
+    name: "Free BlackBoard - Website",
+    description:
+      "Developed a Denmark based Website",
+    tags: [
+      { name: "react", color: "blue-text-gradient" },
+      { name: "react-native", color: "green-text-gradient" },
+      { name: "nodejs", color: "pink-text-gradient" },
+    ],
+    image: "https://i.postimg.cc/25xBqX6z/Screenshot-2024-08-11-at-3-43-08-AM.png", // Add an image if available
+    source_code_link: "https://www.freeblackboard.com/",
+  },
+  {
+   
+    name: "Vision Valt - Company Website",
+    description:
+      "Developed a Software Website",
+    tags: [
+      { name: "react", color: "blue-text-gradient" },
+      { name: "react-native", color: "green-text-gradient" },
+      { name: "nodejs", color: "pink-text-gradient" },
+    ],
+    image: "https://i.postimg.cc/zGyrHLG3/Screenshot-2024-08-11-at-3-45-27-AM.png", // Add an image if available
+    source_code_link: "https://visionvalt.in/",
+  },
+  {
+   
+    name: "Sutraa Technosoft - Company Website",
+    description:
+      "Developed a Software Website",
+    tags: [
+      { name: "react", color: "blue-text-gradient" },
+      { name: "react-native", color: "green-text-gradient" },
+      { name: "nodejs", color: "pink-text-gradient" },
+    ],
+    image: "https://i.postimg.cc/nLnGwm9h/Screenshot-2024-08-11-at-3-47-09-AM.png", // Add an image if available
+    source_code_link: "https://sutraatech.com/",
+  },
+  {
+    name: "Library Management System - Backend APIs",
+    description:
+      "Developed a streamlined Library Management System featuring APIs for author and book management, with secure user authentication and efficient data handling.",
+    tags: [
+      { name: "spring-boot", color: "blue-text-gradient" },
+      { name: "mysql", color: "green-text-gradient" },
+      { name: "kafka", color: "pink-text-gradient" },
+    ],
+    image: "https://i.postimg.cc/prKyRbQP/Screenshot-2024-08-11-at-2-57-03-AM.png", // Add an image if available
+    source_code_link: "https://github.com/abhijitutkarsh/library-management-system",
+  },
+  {
+    name: "Dynamic Blogging Website",
+    description:
+      "Developed a responsive blog site using Next.js with server-side rendering, integrated Strapi for content management, and applied SEO best practices.",
+    tags: [
+      { name: "nextjs", color: "blue-text-gradient" },
+      { name: "strapi", color: "green-text-gradient" },
+    ],
+    image: "https://i.postimg.cc/cCTyQF0Q/Screenshot-2024-08-11-at-2-59-11-AM.png", // Add an image if available
+    source_code_link: "https://blog-a9wrtna4t-abhijitutkarsh.vercel.app/",
   },
 ];
+
 
 export { services, technologies, experiences, testimonials, projects };

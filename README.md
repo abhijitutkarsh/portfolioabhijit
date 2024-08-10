@@ -1,7 +1,7 @@
 <div align="center">
   <br />
     <a href="https://youtu.be/0fYi8SGA20k?feature=shared" target="_blank">
-      <img src="https://github.com/adrianhajdin/project_3D_developer_portfolio/assets/151519281/4722160a-8e61-403f-a905-728feae1f7e6" alt="Project Banner">
+      <img src="https://github.com/Abhijithajdin/project_3D_developer_portfolio/assets/151519281/4722160a-8e61-403f-a905-728feae1f7e6" alt="Project Banner">
     </a>
   <br />
 
@@ -89,7 +89,7 @@ Make sure you have the following installed on your machine:
 **Cloning the Repository**
 
 ```bash
-git clone git@github.com:adrianhajdin/project_3D_developer_portfolio.git
+git clone git@github.com:Abhijithajdin/project_3D_developer_portfolio.git
 cd project_3D_developer_portfolio
 ```
 
@@ -301,7 +301,7 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+      "I thought it was impossible to make a website as beautiful as our product, but Abhijit proved me wrong.",
     name: "Sara Lee",
     designation: "CFO",
     company: "Acme Co",
@@ -309,18 +309,18 @@ const testimonials = [
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
+      "I've never met a web developer who truly cares about their clients' success like Abhijit does.",
+    name: "Deepak Kumar",
     designation: "COO",
-    company: "DEF Corp",
+    company: " Vision Valt",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
+      "After Abhijit optimized our website, our traffic increased by 50%. We can't thank them enough!",
+    name: "Imal Hashmi",
     designation: "CTO",
-    company: "456 Enterprises",
+    company: "Free Blackboard",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
