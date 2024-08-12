@@ -249,19 +249,19 @@ const experiences = [
       "Participated in code reviews, enhancing overall code quality.",
     ],
   },
-  {
-    title: "Software Contractor",
-    company_name: "FreeBlackBoard",
-    icon: freeblackboard,
-    iconBg: "#E6DEDD",
-    date: "May 2022 - Aug 2022",
-    points: [
-      "Developed a student portal and admin panel using NestJS, GraphQL, and React.",
-      "Collaborated with cross-functional teams to deliver a feature-rich platform.",
-      "Ensured responsive design and compatibility across different browsers.",
-      "Conducted code reviews, providing valuable feedback to enhance the codebase.",
-    ],
-  },
+  // {
+  //   title: "Software Contractor",
+  //   company_name: "FreeBlackBoard",
+  //   icon: freeblackboard,
+  //   iconBg: "#E6DEDD",
+  //   date: "May 2022 - Aug 2022",
+  //   points: [
+  //     "Developed a student portal and admin panel using NestJS, GraphQL, and React.",
+  //     "Collaborated with cross-functional teams to deliver a feature-rich platform.",
+  //     "Ensured responsive design and compatibility across different browsers.",
+  //     "Conducted code reviews, providing valuable feedback to enhance the codebase.",
+  //   ],
+  // },
   {
     title: "Software Contractor",
     company_name: "Zerone",
@@ -295,14 +295,14 @@ const testimonials = [
     company: " Vision Valt",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
-  {
-    testimonial:
-      "After Abhijit optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Imal Hashmi",
-    designation: "CTO",
-    company: "Free Blackboard",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
+  // {
+  //   testimonial:
+  //     "After Abhijit optimized our website, our traffic increased by 50%. We can't thank them enough!",
+  //   name: "Imal Hashmi",
+  //   designation: "CTO",
+  //   company: "Free Blackboard",
+  //   image: "https://randomuser.me/api/portraits/women/6.jpg",
+  // },
 ];
 
 const projects = [
@@ -479,32 +479,32 @@ const projects = [
     source_code_link: "https://tgt-adminpanel-fe.vercel.app/#/sign-in?redirectURL=%2Fdash%2Fhome",
   },
 
-  {
+  // {
    
-    name: "Free BlackBoard - Admin Panel",
-    description:
-      "Developed a Dashboard including user onboarding, learning section, and business data management.",
-    tags: [
-      { name: "react", color: "blue-text-gradient" },
-      { name: "react-native", color: "green-text-gradient" },
-      { name: "nodejs", color: "pink-text-gradient" },
-    ],
-    image: "https://i.postimg.cc/tR87gH53/Screenshot-2024-08-11-at-2-39-41-AM.png", // Add an image if available
-    source_code_link: "",
-  },
-  {
+  //   name: "Free BlackBoard - Admin Panel",
+  //   description:
+  //     "Developed a Dashboard including user onboarding, learning section, and business data management.",
+  //   tags: [
+  //     { name: "react", color: "blue-text-gradient" },
+  //     { name: "react-native", color: "green-text-gradient" },
+  //     { name: "nodejs", color: "pink-text-gradient" },
+  //   ],
+  //   image: "https://i.postimg.cc/tR87gH53/Screenshot-2024-08-11-at-2-39-41-AM.png", // Add an image if available
+  //   source_code_link: "",
+  // },
+  // {
    
-    name: "Free BlackBoard - Website",
-    description:
-      "Developed a Denmark based Website",
-    tags: [
-      { name: "react", color: "blue-text-gradient" },
-      { name: "react-native", color: "green-text-gradient" },
-      { name: "nodejs", color: "pink-text-gradient" },
-    ],
-    image: "https://i.postimg.cc/25xBqX6z/Screenshot-2024-08-11-at-3-43-08-AM.png", // Add an image if available
-    source_code_link: "https://www.freeblackboard.com/",
-  },
+  //   name: "Free BlackBoard - Website",
+  //   description:
+  //     "Developed a Denmark based Website",
+  //   tags: [
+  //     { name: "react", color: "blue-text-gradient" },
+  //     { name: "react-native", color: "green-text-gradient" },
+  //     { name: "nodejs", color: "pink-text-gradient" },
+  //   ],
+  //   image: "https://i.postimg.cc/25xBqX6z/Screenshot-2024-08-11-at-3-43-08-AM.png", // Add an image if available
+  //   source_code_link: "https://www.freeblackboard.com/",
+  // },
   {
    
     name: "Vision Valt - Company Website",
