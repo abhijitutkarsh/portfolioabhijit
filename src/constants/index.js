@@ -307,7 +307,7 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Smart Maxx - Admin Portal with WhatsApp/WeChat Message Automation",
+    name: "Admin Portal with WhatsApp/WeChat Message Automation",
     description:
       "Developed a role-based access control mechanism, implemented a quotation generation process integrating WhatsApp, and designed a warehouse management system. Implemented real-time tracking of active shipping orders.",
     tags: [
@@ -321,7 +321,7 @@ const projects = [
     source_code_link: "https://dashboard.maxxcargo.hk",
   },
   {
-    name: "Freecharge - Admin Panel",
+    name: "Admin Panel",
     description:
       "Implemented live selfie authentication and mock location prevention, developed dynamic form builder, and streamlined the merchant onboarding process.",
     tags: [
@@ -335,7 +335,7 @@ const projects = [
     source_code_link: "https://fcdms-phase2staging.vercel.app",
   },
   {
-    name: "MaxxCargo - Logistics Website",
+    name: "Logistics Website",
     description:
       "Developed a professional website for MaxxCargo using WordPress, customized the template, and implemented responsive design elements.",
     tags: [
@@ -382,7 +382,7 @@ const projects = [
     source_code_link: "https://play.google.com/store/apps/details?id=com.bobzerone",
   },
   {
-    name: "Hindware - Data Representation Page",
+    name: "Data Representation Page",
     description:
       "Developed APIs to fetch filtered data from the database and designed a UI to showcase the data.",
     tags: [
@@ -393,7 +393,7 @@ const projects = [
     source_code_link: "https://hindwareui.vercel.app",
   },
   {
-    name: "IIL - Admin Panel with Mobile App",
+    name: "Admin Panel with Mobile App",
     description:
       "Developed a Dashboard with an associated mobile app, including user onboarding, learning section, and sales data management.",
     tags: [
@@ -405,7 +405,7 @@ const projects = [
     source_code_link: "https://iil-admin.vercel.app/",
   },
   {
-    name: "Ashirvad - Admin Panel",
+    name: "Admin Panel",
     description:
       "Developed a Dashboard with an associated mobile app, including user onboarding, learning section, and business data management.",
     tags: [
@@ -417,7 +417,7 @@ const projects = [
     source_code_link: "https://ashirvaddealerappstaging2.herokuapp.com/",
   },
   {
-    name: "Ashirvad - Mobile App",
+    name: "Mobile App",
     description:
       "Developed a Dashboard with an associated mobile app, including user onboarding, learning section, and business data management.",
     tags: [
@@ -430,7 +430,7 @@ const projects = [
   },
 
   {
-    name: "Mittsure - Admin Panel",
+    name: "Admin Panel",
     description:
       "Developed a Dashboard with an associated mobile app, including user onboarding, learning section, and business data management.",
     tags: [
@@ -442,7 +442,7 @@ const projects = [
     source_code_link: "https://mittsure.vercel.app",
   },
   {
-    name: "Mittsure - School Admin Panel",
+    name: "School Admin Panel",
     description:
       "Developed a Dashboard with an associated mobile app, including user onboarding, learning section, and business data management.",
     tags: [
@@ -454,7 +454,7 @@ const projects = [
     source_code_link: "https://school.wabasta.in/admin",
   },
   {
-    name: "TGT - Mobile App",
+    name: "Mobile App",
     description:
       "Developed a Dashboard with an associated mobile app, including user onboarding, learning section, and business data management.",
     tags: [
@@ -467,7 +467,7 @@ const projects = [
   },
   {
    
-    name: "TGT - Admin Panel",
+    name: "Admin Panel",
     description:
       "Developed a Dashboard with an associated mobile app, including user onboarding, learning section, and business data management.",
     tags: [
@@ -520,7 +520,7 @@ const projects = [
   },
   {
    
-    name: "Sutraa Technosoft - Company Website",
+    name: "Company Website",
     description:
       "Developed a Software Website",
     tags: [
